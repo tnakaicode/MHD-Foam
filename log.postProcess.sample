@@ -1,0 +1,66 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1906                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 144f149615-20190918 OPENFOAM=1906 patch=190828
+Arch   : "LSB;label=32;scalar=64"
+Exec   : postProcess -func sample
+Date   : Oct 26 2019
+Time   : 20:50:18
+Host   : DESKTOP-8KJCPKM
+PID    : 21505
+I/O    : uncollated
+Case   : /home/tn/mhdfaom
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading set description:
+    line_centreProfile
+
+Time = 0
+
+Reading fields:
+    volScalarField: Ux
+
+Executing functionObjects
+
+Time = 0.5
+
+Reading fields:
+    volScalarField: Ux
+
+Executing functionObjects
+
+Time = 1
+
+Reading fields:
+    volScalarField: Ux
+
+Executing functionObjects
+
+Time = 1.5
+
+Reading fields:
+    volScalarField: Ux
+
+Executing functionObjects
+
+Time = 2
+
+Reading fields:
+    volScalarField: Ux
+
+Executing functionObjects
+
+End
+
